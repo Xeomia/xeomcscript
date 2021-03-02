@@ -10,9 +10,12 @@ setup(
   url = 'https://github.com/Xeomia/xeomcscript',
   download_url = 'https://github.com/Xeomia/xeomcscript/archive/v0.1.tar.gz',
   keywords = ['Minecraft', 'MySQL'],
-  install_requires=[            # I get to this in a second
-          'validators',
-          'beautifulsoup4',
+  install_requires=[
+          'mysql.connector',
+          'pydirectinput',
+          'pyautogui',
+          'cv2',
+          'pytesseract',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',
@@ -25,3 +28,4 @@ setup(
     'Programming Language :: Python :: 3.9',
   ],
 )
+
