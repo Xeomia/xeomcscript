@@ -6,9 +6,9 @@ setup(
   license='MIT',
   description = 'All the functions used to use my minecraft scripts or create your own',
   author = 'Xeo v2',
-  author_email = 'xeomiayt@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  author_email = 'xeomiayt@gmail.com',
+  url = 'https://github.com/Xeomia/xeomcscript',
+  download_url = 'https://github.com/Xeomia/xeomcscript/archive/v0.1.tar.gz',
   keywords = ['Minecraft', 'MySQL'],
   install_requires=[            # I get to this in a second
           'validators',
@@ -18,7 +18,7 @@ setup(
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers - Gamers',
     'Topic :: Software Development :: Build Tools',
-    'License :: OSI Approved :: MIT License',   # Again, pick a license
+    'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
